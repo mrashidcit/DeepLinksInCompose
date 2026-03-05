@@ -52,7 +52,7 @@ class MainActivity : ComponentActivity() {
                     composable<Routes.Detail>(
                         deepLinks = listOf(
                             navDeepLink {
-                                uriPattern = "https://pl-coding.com/{id}"
+                                uriPattern = "https://mrashidcit.github.io/{id}"
                                 action = Intent.ACTION_VIEW
                             }
                         ),
